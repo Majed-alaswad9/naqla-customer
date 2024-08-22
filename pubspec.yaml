@@ -1,0 +1,123 @@
+name: naqla
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0-229.0.dev <4.0.0'
+
+flutter_gen:
+  output: lib/generated/flutter_gen/
+  #? Optional
+  integrations:
+    flutter_svg: true
+    flare_flutter: true
+    rive: true
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  #? common state
+  common_state:
+    path: packages/common_state
+
+  #?UI
+  text_scroll: ^0.2.0
+  pinput: ^5.0.0
+  dropdown_button2: ^2.3.9
+  fluttertoast: ^8.2.6
+  flutter_form_builder: ^9.3.0
+  flutter_keyboard_visibility: ^6.0.0
+  flutter_screenutil: ^5.9.3
+  flutter_spinkit: ^5.2.1
+  modal_bottom_sheet: ^3.0.0
+  iconly: ^1.0.1
+  numberpicker: ^2.1.2
+  credit_card_type_detector: ^3.0.0
+
+  #?IMAGE:
+  image_picker: ^1.1.2
+  flutter_svg: ^2.0.10+1
+  image_cropper: ^7.1.0
+  flutter_image_compress: ^2.3.0
+  path_provider: ^2.1.3
+  uuid: ^4.4.2
+  http_parser: ^4.0.2
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+
+  #?State management
+  flutter_bloc: ^8.1.6
+  dio: ^5.5.0+1
+  form_builder_validators: ^11.0.0
+  intl: ^0.19.0
+  get_it: ^7.7.0
+
+  injectable: ^2.4.4
+  logger: ^2.4.0
+  shared_preferences: ^2.2.3
+
+  #?router
+  go_router: ^14.2.1
+
+  #?map
+  location: ^7.0.0
+  google_maps_flutter: ^2.7.0
+  flutter_polyline_points: ^2.1.0
+
+  #?realTme
+  socket_io_client: ^2.0.3+1
+  
+
+
+  flutter_localizations:
+    sdk: flutter
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/jpg/logo.jpg"
+  min_sdk_android: 21
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  flutter_gen_runner: ^5.6.0
+  build_runner: ^2.4.11
+  injectable_generator: ^2.6.2
+
+
+
+flutter:
+  uses-material-design: true
+#  generate: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/svg/
+    - assets/images/jpg/
+    - assets/icons/essential/
+    - assets/icons/png/
+    - assets/icons/arrow/
+    - assets/icons/flags/
+    - assets/icons/payments/
+
+
+  fonts:
+    - family: noor
+      fonts:
+        - asset: assets/fonts/ArbFONTS-AGCRegular.ttf
+
+flutter_intl:
+  enabled: true
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,201 @@
+{
+  "@@locale": "ar",
+
+  "_______________date__________________________": "",
+  "day": "يوم",
+  "month": "شهر",
+  "ago": "منذ",
+  "minute": "دقيقة",
+  "hour": "ساعة",
+  "second": "ثانية",
+  "today": "اليوم",
+  "yesterday": "الأمس",
+
+  "________________onBoarding____________________": "",
+  "anywhere_you_are": "في أي مكان كنت",
+  "sell_houses_easily_with_the_help_of_Listenoryx": "Sell houses easily with the help of Listenoryx and to make this line big\nI am writing more",
+  "at_anytime": "في أي وقت",
+
+
+  "________________validation___________________": "",
+  "this_field_is_required": "هذا الحقل مطلوب",
+  "there_is_nothing_to_show": "لا يوجد بيانات لعرضها",
+  "the_starting_point_must_be_determined":"يجب تحديد نقطة الانطلاق",
+  "the_end_point_must_be_determined":"يجب تحديد نقطة الوصول",
+
+  "_________________authentication________________": "",
+  "use_my_location": "استخدام موقعي",
+  "skip_for_now": "تخطي الان",
+  "Welcome": "مرحبا",
+  "have_a_better_sharing_experience": "تمتع بتجربة مشاركة أفضل",
+  "create_an_account": "إنشاء حساب",
+  "log_in": "تسجيل الدخول",
+  "skip": "تخطي",
+  "go": "اذهب",
+  "sign_up": "التسجيل ",
+  "first_name": "الاسم الاول",
+  "last_name": "الاسم الاخير",
+  "your_mobile_number": "رقم هاتفك المحمول",
+  "back": "رجوع",
+  "already_have_an_account": "هل لديك حساب بالفعل؟ ",
+  "sign_in": "تسجيل الدخول",
+  "phone_verification": "التحقق من الهاتف",
+  "enter_code": "أدخل رمز ",
+  "otp": "OTP",
+  "your_code": " الخاص بك",
+  "verify": "تحقق",
+  "register": "تسجيل",
+  "full_Name": "الاسم كامل",
+  "do_not_have_an_account": "ليس لديك حساب؟ ",
+
+  "__________________________home______________________________":"",
+  "home":"الرئيسية",
+  "use_current_location": "استخدام موقعك الحالي",
+  "next": "التالي",
+  "new_naqla": "نقلة جديدة",
+  "start_point": "نقطة الانطلاق",
+  "end_point": "نقطة الوصول",
+  "please_take_photos_of_the_items_to_be_transported": "يرجى إلتقاط صور للإغراض التي سيتم نقلها للمساعدة بالعثور على سيارة (او عدة سيارات) مناسبة.",
+  "select_photo": "اختيار صورة",
+  "item_width": "عرض الغرض (M)",
+  "item_length": "طول الغرض (M)",
+  "item_weight": "وزن الغرض (KG)",
+  "this_action_will_not_be_undone": "لن يتم التراجع عن هذا الامر وسيتم خصم المبلغ المستحق من حسابك",
+  "are_you_sure_you_want_to_cancel_the_order": "هل انت متأكد أنك تريد الغاء الطلب؟",
+  "add_photo": "ٳضافة صورة",
+  "total_number_of_floors": "عدد الطوابق الكلي:",
+  "additional_specifications_of_the_car": "مواصفات إضافية للسيارة:",
+  "porters": "حمالين",
+  "order_details": "تفاصيل النقلة",
+  "order_date": "تاريخ النقلة: ",
+  "the_remuneration_will_depend_on_the_number_of_porters_required": "الاجر سيعتمد على عدد الحمالين المطلوبين والطوابق وطبيعة الأغراض المنقولة.",
+  "order_status": "حالة النقلة: ",
+  "cost": "الكلفة:",
+  "syp": "ل.س",
+  "please_confirm_order": "الرجاء تأكيد النقلة(ات)",
+  "confirm_order": "تأكيد النقلة",
+  "cancel_order": "ٳلغاء النقلة",
+  "loading": "الرجاء الانتظار...",
+  "street":"الشارع",
+  "region":"المنطقة",
+  "the_order_was_divided_into_orders": "تم تقسيم النقلة الى {count} نقلة/نقلات",
+  "@the_order_was_divided_into_orders": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "card_Number": "رقم البطاقة",
+  "not_valid_number": "رقم غير صالح",
+  "enter_larger_date": "أدخل تاريخًا أكبر",
+  "length_should_more": "أدخل {count} ارقام",
+  "@length_should_more": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "the_total_amount": "المبلغ الكلي: {total} ل.س",
+  "@the_total_amount": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "expiry_Date": "تاريخ الانتهاء",
+  "Invalid_card_holder_name": "اسم حامل البطاقة غير صالح",
+  "the_name_must_be_at_least_characters_long": "الاسم يجب ان يكون على الاقل {char} محارف",
+  "@the_name_must_be_at_least_characters_long": {
+    "placeholders": {
+      "char": {
+        "type": "int"
+      }
+    }
+  },
+  "card_name_for_display": "اسم البطاقة للعرض",
+  "not_a_valid_date": "ليس تاريخًا صالحًا",
+  "the_card_number_must_consist_of_digits": "رقم البطاقة يجب ان يتكون من {count} رقم",
+  "@the_card_number_must_consist_of_digits": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "card_holder_name": "إسم صاحب البطاقة",
+
+  "__________________________wallet______________________________":"",
+  "wallet":"المحفظة",
+  "total_money": "الاموال الكلية: ",
+  "available_money": "الاموال المتوفرة: ",
+  "pending_money": "الاموال المعلقة: ",
+
+  "__________________________chat________________________________": "",
+  "chat": "محادثة",
+  "write_message": "اكتب رسالة",
+
+  "__________________________order_______________________________": "",
+  "orders": "النقلات",
+  "active_orders": "النقلات الحالية",
+  "done_orders": "النقلات المنتهية",
+  "sub_orders": "النقلات الفرعية",
+  "order_accepted_date": "تاريخ قبول النقلة",
+  "order_arrived_date": "تاريخ وصول السائق",
+  "order_delivered_date": "تاريخ توصيل النقلة",
+  "order_pickedUp_date": "تاريخ تحميل النقلة",
+  "order_driverAssigned_date": "تاريخ تعيين السائق",
+  "driver_arrived": "السائق وصل",
+  "set_order_picked_up": "تحميل النقلة",
+  "set_order_delivered": "تم توصيل النقلة",
+  "waiting_for_customer_confirmation": "بإنتظار تأكيد الزبون",
+  "the_customer_has_confirmed_the_order": "الزبون قام بتأكيد النقلة",
+  "order_on_the_way": "النقلة على الطريق",
+  "delivered": "تم توصيل النقلة",
+  "waiting_for_the_driver_to_arrive": "بإنتظار وصول السائق",
+  "waiting_for_the_supervisor_to_review": "بإنتظار مراجعة المشرف",
+  "waiting_for_drivers_to_be_hired": " بإنتظار تعيين سائقين",
+  "waiting_for_the_order_to_be_pickUp": "بانتظار تحميل النقلة",
+  "the_number_of_floors": "عدد الطوابق",
+  "the_order_has_been_canceled":"تم ٳلغاء النقلة",
+  "the_weight":"الوزن",
+  "vehicle_advantages": "ميزات السيارة",
+  "driver_name":"اسم السائق",
+  "car_model":"موديل السيارة",
+  "car_color":"لون السيارة",
+  "car_brand":"العلامة التجارية للسيارة",
+  "order_photos": "صور النقلة",
+  "rate_the_driver": "قيّم السائق",
+  "write_a_comment_note": "اكتب تعليق / ملاحظة",
+  "notes": "ملاحظات",
+  "rating": "التقييم",
+  "your_order_is_under_scrutiny_by_the_admin_please_wait": "طلبك قيد التدقيق من قبل المشرف, الرجاء الانتظار",
+  "your_order_was_rejected_by_the_admin": "تم رفض النقلة من قبل المشرف",
+  "waiting_for_the_driver_to_arrive_and_pickUp_the_order": "بانتظار وصول السائق وتحميل النقلة",
+  "canceled": "ملغي",
+  "confirm_the_order": "قم بتأكيد النقلة",
+
+  "__________________________profile______________________________":"",
+  "profile":"الملف الشخصي",
+  "update": "تحديث",
+  "Save": "حفظ",
+  "edit_profile": "تعديل الملف الشخصي",
+  "edit_phone": "تعديل رقم الهاتف",
+  "about_us": "من نحن",
+  "help_and_support": "المساعدة والدعم",
+  "logOut": "تسجيل الخروج",
+  "language": "اللغة",
+  "are_you_sure_you_want_to_log_out": "هل انت متأكد أنك تريد تسجيل الخروج من هذا الحساب؟",
+  "cancel": "الغاء",
+  "no": "لا",
+  "yes": "نعم",
+  "delete_account": "حذف الحساب",
+  "are_you_sure_you_want_to_delete_account": "هل انت متأكد انك تريد حذف حسابك؟ يرجى قراءة كيف سيؤثر حذف الحساب.\nيؤدي حذف حسابك إلى إزالة المعلومات الشخصية من قاعدة بياناتنا.",
+  "english": "الانكليزية",
+  "arabic": "العربية",
+  "change_language": "تغيير اللغة",
+  "camera": "الكاميرا",
+  "gallery": "المعرض"
+}
